@@ -1,14 +1,12 @@
 <?php
-
-
 /**
  * Plugin Name:       Mmb Copyright Popup
- * Plugin URI:        https://github.com/riverswan/penci_slider_style_28_fix
- * Description:       Quick fix for Style №28 homepage slider of Soledad WordPress theme.
+ * Plugin URI:        https://github.com/riverswan/mamabook_copyright_popup
+ * Description:       Copyright popup
  * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
- * Author:            Paul Swan
+ * Author:            Pavel Riverswan
  * Author URI:        https://github.com/riverswan
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
