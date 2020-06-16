@@ -19,8 +19,7 @@ add_action('wp_enqueue_scripts', 'mmb_copyright_popup');
 
 if (!function_exists('mmb_copyright_popup')) {
 	function mmb_copyright_popup() {
-
-		if (is_user_logged_in()) {
+		if (!is_user_logged_in()) {
 			wp_enqueue_script('copyright_popup', plugin_dir_url(__FILE__) . 'mmb-copyright-popup.js', '', '', true);
 		}
 	}
